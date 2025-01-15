@@ -1,4 +1,17 @@
+"""log.py
 
+This script contains functions for configuring and utilizing logging within the Python environment. 
+The use of logging is crucial for recording the execution flow and debugging.
+
+Function: configure_logging() - Initializes and configures the logging system, allowing for logging 
+across different severity levels (INFO, DEBUG, WARNING, ERROR). It supports custom log formats and automatically 
+creates log directories and files based on the timestamp. This setup is essential for tracking the application's 
+operational history and troubleshooting issues.
+
+Function: log_message() - Facilitates logging messages at specified levels, ensuring that all significant events within 
+the application are recorded systematically. This function is versatile, catering to different logging needs such as 
+informational messages or errors.
+"""
 import os
 import logging
 from datetime import datetime

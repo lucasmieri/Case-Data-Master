@@ -1,4 +1,17 @@
-# prints.py
+"""prints.py
+This script enhances the standard print functionality with logging integration, making it suitable for 
+both console output and file logging, thus ensuring that all outputs are captured comprehensively.
+
+Function: custom_print() - A versatile print function that outputs messages to both the console and the log file. 
+It includes options to add spacing and line skips for improved readability of the console output.
+
+Function: print_error(), print_warning(), print_success(), print_info() - These functions are specialized 
+versions of custom_print(), each tailored for specific types of messages (error, warning, success, and info). 
+They provide clarity and context in output messaging, which is crucial for user feedback and debugging.
+
+Function: register_time_spent() - Logs the duration taken by specific processes, an essential feature for performance
+monitoring and optimization analysis.
+"""
 from datetime import datetime
 import logging
 
